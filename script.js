@@ -18,12 +18,13 @@ function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
+  document.textarea.innerHTML = ''
 }
 
 generateBtn.addEventListener("click", writePassword);
 
 
-function generatePassword(){
+function generatePassword(event){
  var password ="";
 
  var length = prompt("How many characters would you like your password to be? (between 8-128");
