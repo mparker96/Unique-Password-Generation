@@ -19,5 +19,5 @@ MIT License
 This Application is deployed on Github Pages
 
 
-
+URL to deployed site: https://mparker96.github.io/Unique-Password-Generation/
 ![My Image](./assets/Password-Generator.png)
